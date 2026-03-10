@@ -133,7 +133,7 @@ img:hover {
     .card {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 500px;
         justify-content: center;
         align-items: center;
     }
@@ -197,6 +197,116 @@ img:hover {
         border-radius: 5px;
         overflow: hidden;
         width: 400px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border-right: none;
+    }
+
+    .fa-envelope {
+        color: rgb(232, 71, 71);
+        font-size: 18px;
+        padding-right: 5px;
+    }
+
+    .fa-brands {
+        color: #25D366;
+        font-size: 18px;
+    }
+
+    .fa-solid {
+        color: #ad09b9;
+        font-size: 18px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f8ff;
+    }
+
+    .container-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle at center, #ff000096, #2873dc);
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        border-bottom: none;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 900;
+        color: #333;
+        border-radius: 5px;
+    }
+
+    a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        font-weight: 700;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
+        font-weight: 700;
+    }
+
+    img {
+        display: block;
+        width: 120px;
+    }
+
+    .img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border: #333 double 5px;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        transition: transform 1.5s ease;
+    }
+
+    .info {
+        /* background-color: #333; */
+        /* border: #333 solid 1px; */
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        width: 200px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         border-right: none;
     }
