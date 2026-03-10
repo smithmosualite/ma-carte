@@ -3,17 +3,20 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #e3e3e3;
+    height: 100vh;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container-card {
@@ -73,7 +76,7 @@ img {
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: #333 solid 10px;
+    border: #333 double 10px;
 }
 
 img:hover {
@@ -166,18 +169,17 @@ img:hover {
 
     img {
         display: block;
-        width: 110px;
-        padding-bottom: 20px;
+        width: 120px;
     }
 
     .img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
         overflow: hidden;
         cursor: pointer;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        border: #333 solid 5px;
+        border: #333 double 5px;
     }
 
     img:hover {
